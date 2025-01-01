@@ -43,3 +43,12 @@ var c, python , java bool
 ## Variables with initializers
 - var宣言では、initializer(初期化子)を与えることができる
   - 変数に初期化子が与えられている場合は、型を省略でき初期化子が持つ型になる
+## Short variable declarations
+- **関数の中では**、var宣言の代わりに:=の代入文を使うことができる
+- 関数の外ではvar, funcなどのキーワードで始まる宣言しか使えない
+```go
+func main() {
+  k := 3
+  c, python, java := true, false, "No!"
+}
+```
