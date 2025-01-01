@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// 配列の長さを指定する
+	// 配列は固定長のため、長さを指定する
 	var a [2]string
 	a[0] = "Hello"
 	a[1] = "World"
