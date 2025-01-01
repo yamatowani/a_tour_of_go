@@ -52,3 +52,14 @@ func main() {
   c, python, java := true, false, "No!"
 }
 ```
+## Basic Type
+### Goの組み込み型
+- bool
+- stirng
+- 符号付き整数
+  - int, int8, int16, int32(rune), int64
+- 符号なし整数
+  - uint, uint8(byte), int16, int32, int64, uintptr
+- float32, float64
+- complex64, complex128
+- Error
