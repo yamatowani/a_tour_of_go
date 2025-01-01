@@ -131,3 +131,5 @@ func main() {
 - Goのswitch文では、選択されたcaseだけが実行される
 - 各caseの最後で自動的にbreak文が自動的に提供される
 - caseは定数である必要はなく、関係する値は整数である必要はない
+## Switch evaluation order
+- switch caseは上から評価される。caseの条件が一致すればそこで自動的にbreakされる。
