@@ -119,3 +119,5 @@ func main() {
 	fmt.Println(sum)
 }
 ```
+## Forever
+- 条件式を省略すれば無限ループになる
