@@ -40,3 +40,6 @@ func split(sum int) (x, y int) {
 ```go
 var c, python , java bool
 ```
+## Variables with initializers
+- var宣言では、initializer(初期化子)を与えることができる
+  - 変数に初期化子が与えられている場合は、型を省略でき初期化子が持つ型になる
