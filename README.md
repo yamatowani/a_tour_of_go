@@ -78,3 +78,11 @@ u := uint(f)
 # command-line-arguments
 ./type-conversions.go:11:15: cannot use f (variable of type float64) as uint value in variable declaration
 ```
+## Type inference
+- 型を指定せずに変数を宣言すると、右側の変数から型推論が行われる
+- 右側の変数が型を持っている場合, 左側の新しい変数は同じ型になる
+```go
+i := 35 // int
+f := 3.14159 // float64
+g := 0.867 + 0.5i //complex128
+```
