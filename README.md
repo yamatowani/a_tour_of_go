@@ -125,3 +125,5 @@ func main() {
 - if文に括弧はいらない, 中括弧は必要
 ## If with a short statement
 - if文の中で変数を宣言し、ifのスコープ内, ブロック内でのみ使える
+## If and else
+- if文で宣言された変数はelseブロック内でも使える
