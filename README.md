@@ -33,3 +33,10 @@ func split(sum int) (x, y int) {
 	return
 }
 ```
+## Variables
+- varステートメント: 変数を宣言
+  - 宣言した変数の後ろに型を書く
+  - パッケージ, 関数で利用できる
+```go
+var c, python , java bool
+```
