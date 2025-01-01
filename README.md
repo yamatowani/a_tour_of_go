@@ -63,3 +63,6 @@ func main() {
 - float32, float64
 - complex64, complex128
 - Error
+## Zero Values
+- 変数に初期値を与えないとゼロ値が与えらえる
+  - 0, false, ""(空文字列)など
