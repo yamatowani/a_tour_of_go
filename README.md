@@ -108,3 +108,14 @@ func main() {
 	fmt.Println(sum)
 }
 ```
+## For is Go's "while"
+セミコロンを省略して、他の言語のwhile文のように利用できる
+```go
+func main() {
+	sum := 1
+	for sum < 1000 {
+		sum += sum
+	}
+	fmt.Println(sum)
+}
+```
