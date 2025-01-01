@@ -66,3 +66,15 @@ func main() {
 ## Zero Values
 - 変数に初期値を与えないとゼロ値が与えらえる
   - 0, false, ""(空文字列)など
+## Type conversions
+- 変数v, 型Tの場合, T(v)で型変換を行うことができる
+```go
+i := 42
+f := float64(i)
+u := uint(f)
+```
+型変換を行わない場合、float64型の変数fはuintの値として宣言できないよ!と怒られてしまう
+```bash
+# command-line-arguments
+./type-conversions.go:11:15: cannot use f (variable of type float64) as uint value in variable declaration
+```
