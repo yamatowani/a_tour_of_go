@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// 配列ではなくスライスを作成している
 	q := []int{2, 3, 5, 7, 11, 13}
 	fmt.Println(q)
 
